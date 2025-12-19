@@ -1,0 +1,12 @@
+# Example configuration - copy to terraform.tfvars
+# NEVER commit terraform.tfvars to git
+
+# GCP Configuration
+project_id   = "your-gcp-project-id"
+region       = "europe-west1"
+zone         = "europe-west1-b"
+machine_type = "e2-medium"
+
+# Secrets (use Secret Manager or GitHub Secrets in production)
+# db_password = "secure-password-here"
+# api_key     = "secure-api-key-here"
